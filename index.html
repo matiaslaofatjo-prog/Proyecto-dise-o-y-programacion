@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luigi's Mansion: El gran rescate de Ectochucho</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+<body>
+
+<!-- Menú de navegación -->
+<header>
+<div class="logo-nav">Luigi's Mansion🏚️</div>
+<nav>
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#personajes">Personajes</a></li>
+<li><a href="#escenas">Escenas</a></li>
+<li><a href="#interactivo-sec">Pista</a></li>
+<li><a href="#final">Final</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- Portada -->
+<div id="inicio" class="hero-container">
+<div class="hero-card">
+<h1 class="game-title">
+<img src="img/logo.jpg" alt="Logo de Luigi's Mansion">
+</h1>
+<a href="#personajes" class="btn-green">Empezar la búsqueda</a>
+</div>
+</div>
+
+<!-- Personajes -->
+<section id="personajes">
+<h2 class="section-title">Personajes</h2>
+
+<div class="personajes-grid">
+
+<div class="character-frame">
+<h3>Luigi</h3>
+<p>Un héroe asustadizo pero con un gran corazón. Aunque tiembla en la oscuridad, está dispuesto a enfrentar sus miedos con tal de ayudar a sus amigos, equipado con su linterna y su poderosa G-00.</p>
+<img src="img/Luigi.jpg" alt="Luigi, el personaje principal">
+</div>
+
+<div class="character-frame">
+<h3>Ectochucho</h3>
+<p>Un perrito fantasma súper juguetón y leal del laboratorio del Profesor Fesor. Tiene una gran curiosidad por los objetos brillantes, haciendo que se pierda en un lugar inimaginable.</p>
+<img src="img/Ectochucho" alt="Ectochucho, el perrito fantasma">
+</div>
+
+</div>
+</section>
+
+<!-- Escenas -->
+<section id="escenas">
+<h2 class="section-title">Escenas de la aventura</h2>
+
+<div class="escena-bloque">
+<h3>El misterio en la mansión abandonada</h3>
+
+<p>En una fría y tormentosa noche, mientras se encontraban cerca del laboratorio,Ectochucho vio algo que le llamo mucho la atencion: era un destello misterioso y cuando lo vio salio disparado hacia una tenebrasa mansion a las afueras, siguiendo el destello.Temblando de miedo pero completamente decidido a buscar a su amigo y encontrarlo, Luigi llega a la mansion, empujando la pesada puerta y se adentra en el vestibulo, donde cada sombra cobra vida</p>
+<div class="escenas-grid-img">
+
+<div>
+<img src="img/Mansion" alt="Mansión de Luigi's Mansion">
+<p>La mansión misteriosa en la tormenta</p>
+</div>
+
+<div>
+<img src="img/huellas-blancas.jpg" alt="Huellas ectoplásmicas">
+<p>Rastro brillante del cachorro</p>
+</div>
+
+<div>
+<img src="img/Biblioteca" alt="Biblioteca principal">
+<p>La biblioteca principal </p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!--Boton interactivo -->
+<section id="interactivo-sec">
+<h2 class="section-title">Elemento interactivo</h2>
+
+<div id="interactivo">
+<p>Conforme sube al segundo piso, Luigi necesita la ayuda del Profesor Fesor, el cual le da un radar especial para rastrear indicios fantasmales en la zona</p>
+<button class="btn-green" onclick="revelarPista()">
+Rastrear Ectoplasma 🔍
+</button>
+
+<div id="mensaje-pista" aria-live="polite"></div>
+</div>
+</section>
+
+<!-- Final -->
+<section id="final">
+<h2 class="section-title">Final del rescate</h2>
+
+<p class="texto-final">
+  Guiado por el brillo de las últimas huellas, Luigi atraviesa un pasillo secreto, que lo lleva hasta la biblioteca principal
+</p>
+
+<img src="img/Biblioteca" alt="Biblioteca principal" class="final-image">
+
+<p class="texto-final">
+Dentro de la biblioteca por fin encuentra a Ectochucho, divirtiendose juntos otraven mientras juegan con un libro flotante. Con un suspiro de alivio y una gran sonrisa por
+reencontrarse con su mascota, Luigi abraza fuertemente a su compañero de aventuras, poniendo asi el fin a esta escalofriante pero memorable aventura.
+</p>
+
+<img src="img/LUIGi y ecto.jpg" alt="Luigi abraza a Ectochucho" class="final-image">
+
+<br>
+
+<a href="#inicio" class="btn-green">Volver al inicio</a>
+</section>
+
+<!-- Pie de página -->
+<footer>
+<p>© 2026 Cuento - Luigi's Mansion: El gran rescate de Ectochucho - Matias Lao</p>
+</footer>
+</body>
+</html>
