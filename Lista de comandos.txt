@@ -1,0 +1,21 @@
+git init -> Inicializa un repositorio de Git vacío en la carpeta actual.
+
+git status -> Muestra el estado de tus archivos (cuáles están guardados, cuáles faltan por agregar o modificar).
+
+git add . -> Prepara y añade todos los archivos modificados al área de seguimiento (staging).
+
+git commit -m "mensaje" -> Guarda los cambios permanentemente en el historial con un texto que describe lo que hiciste.
+
+git branch -> Muestra la lista de ramas que tienes en tu proyecto.
+
+git checkout -b <nombre-de-rama> -> Crea una nueva rama y te cambia a ella automáticamente.
+
+git checkout <nombre-de-rama> -> Te permite cambiar de una rama a otra existente.
+
+git merge <nombre-de-rama> -> Fusiona los cambios de la rama seleccionada con la rama en la que estás trabajando (por ejemplo, main).
+
+git push origin <nombre-de-rama> -> Sube tus commits y ramas locales al repositorio remoto en GitHub.
+
+git tag -a v1.0 -m "mensaje" -> Crea una etiqueta (tag) para marcar formalmente una versión final del proyecto.
+
+git push origin v1.0 -> Sube la etiqueta creada al repositorio en GitHub.
