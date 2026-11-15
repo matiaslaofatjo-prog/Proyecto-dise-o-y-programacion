@@ -1,3 +1,0 @@
-# Archivos del sistema,carpetas temporales y notas 
-
-lista de comandos
