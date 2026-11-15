@@ -30,14 +30,20 @@ Git y GitHub: Control de versiones, manejo de ramas, resolución de conflictos y
 
 Estructura del Proyecto
 
--img/ # Carpeta con las ilustraciones y recursos gráficos -index.html # Estructura principal de la página web -style.css # Hoja de estilos y diseño responsivo -app.js # Funciones interactivas en JavaScript -.gitignore # Archivos excluidos del control de versiones -README.md # Documentación oficial del proyecto
+-img/                  # Carpeta con las ilustraciones y recursos gráficos
+ -index.html            # Estructura principal de la página web
+ -style.css             # Hoja de estilos y diseño responsivo
+ -app.js                # Funciones interactivas en JavaScript
+-.gitignore            # Archivos excluidos del control de versiones
+ -README.md             # Documentación oficial del proyecto
+
 
 Autor y Créditos
 
 Estudiante: Matias Lao
 
-Sección: 10-3
+Sección: 10-3 
 
-Subárea: Diseño de Software
+Subárea: Diseño de Software 
 
 Año: 2026
